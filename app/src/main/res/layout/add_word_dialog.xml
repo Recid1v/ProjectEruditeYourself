@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#2196F3"
+    android:padding="15dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/input_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Введите слово"
+        android:inputType="textPersonName"
+        android:maxLength="31"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/input_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Введите значение"
+        android:inputType="textPersonName"
+        android:textColorHint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:backgroundTint="#FFFFFF"
+        android:text="Добавить"
+        android:textColor="#2196F3" />
+
+</LinearLayout>

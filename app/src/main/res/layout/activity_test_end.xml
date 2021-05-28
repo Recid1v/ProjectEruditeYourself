@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:orientation="vertical"
+    tools:context=".TestEndActivity">
+
+    <RelativeLayout
+        android:id="@+id/container_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/dark_blue">
+
+        <TextView
+            android:id="@+id/text_end_results"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:text="Ваш результат"
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/container_"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/container_word"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/container_btn_again"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btn_try_again"
+                android:layout_width="300sp"
+                android:gravity="center"
+                android:layout_height="75sp"
+                android:layout_centerInParent="true"
+                android:backgroundTint="@color/white"
+                android:layout_marginStart="10sp"
+                android:layout_marginEnd="20sp"
+                android:textColor="@color/blue"
+                android:onClick="OnClickAgain"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:text="Пройти ещё раз"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/container_btn_menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btn_go_menu"
+                android:layout_width="300sp"
+                android:gravity="center"
+                android:layout_height="75sp"
+                android:layout_centerInParent="true"
+                android:backgroundTint="@color/white"
+                android:layout_marginStart="10sp"
+                android:layout_marginEnd="20sp"
+                android:textColor="@color/blue"
+                android:onClick="OnClickMenu"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:text="В меню"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

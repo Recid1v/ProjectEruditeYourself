@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BtnNextStyle" parent="Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:background">@color/for_btn_next</item>
+    </style>
+    <style name="DialogWordMeaningStyle" parent="Base.Theme.AppCompat.Dialog">
+        <item name="android:windowMinWidthMajor">95%</item>
+        <item name="windowFixedHeightMajor">95%</item>
+    </style>
+</resources>

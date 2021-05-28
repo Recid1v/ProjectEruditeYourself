@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Эрудируйся</string>
+    <string name="btn_start">Начать</string>
+    <string name="btn_pass_test">Пройти тест</string>
+    <string name="btn_word_bank">Банк слов</string>
+    <string name="btn_results">Результаты</string>
+    <string name="btn_exit">Выйти</string>
+    <string name="btn_next">Следующий</string>
+    <string name="dialog_exit_test">
+        Вы действительно хотите прервать тест?\nРезультат не сохранится
+    </string>
+    <string name="yours_results">"Ваш результат: "</string>
+</resources>
